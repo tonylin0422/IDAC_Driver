@@ -1,0 +1,11 @@
+{
+  "additionalFiles": "../../..,../../..,../..,../..",
+  "builtInToolsFolders": "",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "",
+  "fqbn": "arduino:mbed_portenta:envie_m7:target_core=cm7,split=50_50,security=none",
+  "hardwareFolders": "/Users/tonylin/Library/Arduino15/packages",
+  "otherLibrariesFolders": "/Users/tonylin/Documents/Arduino/libraries",
+  "runtime.ide.version": "10607",
+  "sketchLocation": "/Users/tonylin/Desktop/idac"
+}

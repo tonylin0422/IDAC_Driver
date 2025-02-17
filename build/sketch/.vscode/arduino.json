@@ -1,0 +1,43 @@
+#line 1 "/Users/tonylin/Desktop/idac/.vscode/arduino.json"
+{
+    "configurations": [
+        {
+            "name": "Arduino",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/Users/tonylin/Library/Arduino15/packages/arduino/hardware/mbed_portenta/4.2.1/cores/arduino",
+                "/Users/tonylin/Library/Arduino15/packages/arduino/hardware/mbed_portenta/4.2.1/cores/arduino/**",
+                "/Users/tonylin/Library/Arduino15/packages/arduino/hardware/mbed_portenta/4.2.1/variants/PORTENTA_H7_M7",
+                "/Users/tonylin/Library/Arduino15/packages/arduino/hardware/mbed_portenta/4.2.1/libraries/SPI",
+                "/Users/tonylin/Library/Arduino15/packages/arduino/hardware/mbed_portenta/4.2.1/cores/arduino/mbed",
+                "/Users/tonylin/Library/Arduino15/packages/arduino/hardware/mbed_portenta/4.2.1/cores/arduino/mbed/targets/TARGET_STM",
+                "/Users/tonylin/Library/Arduino15/packages/arduino/hardware/mbed_portenta/4.2.1/cores/arduino/mbed/targets/TARGET_STM/TARGET_STM32H7",
+                "/Users/tonylin/Library/Arduino15/packages/arduino/hardware/mbed_portenta/4.2.1/cores/arduino/mbed/cmsis",
+                "/Users/tonylin/Library/Arduino15/packages/arduino/hardware/mbed_portenta/4.2.1/cores/arduino/mbed/cmsis/CMSIS_5/CMSIS/TARGET_CORTEX_M",
+                "/Users/tonylin/Library/Arduino15/packages/arduino/hardware/mbed_portenta/4.2.1/cores/arduino/api"
+            ],
+            "forcedInclude": [
+                "/Users/tonylin/Library/Arduino15/packages/arduino/hardware/mbed_portenta/4.2.1/cores/arduino/Arduino.h"
+            ],
+            "defines": [
+                "ARDUINO=100",
+                "USBCON",
+                "ARDUINO_PORTENTA_H7",
+                "ARM_MATH_CM7",
+                "CORE_CM7",
+                "STM32H747xx",
+                "__MBED__",
+                "DEVICE_ANALOGIN=1",
+                "DEVICE_SPI=1",
+                "TARGET_STM32H7",
+                "TARGET_PORTENTA_H7"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
+
+Version 6 of 8
