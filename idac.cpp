@@ -41,3 +41,23 @@ void IDAC :: write_register(uint16_t reg, uint16_t value) {
 
     SPI.endTransaction();
 }
+
+void IDAC :: select_buck_boost(uint16_t bb_val) {
+    write_register(SELECT_BUCK_BOOST, bb_val);
+}
+
+void IDAC :: config_buck_boost(uint16_t bb_config_val) {
+    write_register(CONFIG_BUCK_BOOST, bb_config_val);
+}
+
+void IDAC :: select_dac_reg(uint16_t dac_sel) {
+    write_register(SELECT_DAC, dac_sel);
+}
+
+void IDAC :: config_dac_reg(uint16_t dac_reg) {
+    write_register(CONFIG_DAC, dac_reg);
+}
+
+void IDAC :: program_dac(uint16_t data) {
+    write_register(DAC_DATA, data);
+}
